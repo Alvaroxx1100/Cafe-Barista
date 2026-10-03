@@ -6,10 +6,16 @@ body {
 }
 
 header {
-  background-color: #4b2e1e;
+  background: linear-gradient(135deg, #4b2e1e, #8a5a3c);
   color: #fff;
   text-align: center;
-  padding: 30px 20px;
+  padding: 50px 20px;
+}
+
+header h1 {
+  font-size: 2.8em;
+  margin: 0;
+  letter-spacing: 2px;
 }
 
 nav a {
@@ -33,6 +39,8 @@ section {
 
 h2 {
   color: #6f4e37;
+  border-bottom: 2px solid #c8873a;
+  padding-bottom: 6px;
 }
 
 footer {
@@ -50,4 +58,18 @@ footer {
 #promociones li {
   font-weight: bold;
   margin-bottom: 6px;
+}
+
+section {
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+  transition: transform 0.2s;
+}
+
+section:hover {
+  transform: translateY(-4px);
+}
+
+nav a:hover {
+  color: #c8873a;
+  text-decoration: underline;
 }
